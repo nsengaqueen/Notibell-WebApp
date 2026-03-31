@@ -8,7 +8,7 @@ export type User = {
 export type Notification = {
   id: string;
   timestamp: string;
-  response: string; 
-  responseType: "quick" | "custom"; 
+  response: string;
+  responseType: "quick" | "custom";
   respondedBy: string;
 };
